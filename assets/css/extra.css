@@ -1,0 +1,20 @@
+.navbar-rewrite {
+    background-color: #9ba3cf !important;
+}
+
+.navbar-rewrite__Link {
+    font-weight: bold;
+    color: black !important;
+}
+
+.navbar-rewrite__Link:hover {
+    color: pink !important;
+}
+
+.mr-1 {
+    margin-right: 1rem !important;
+}
+
+.navbar-rewrite__Icon {
+    max-height: 40px !important;
+}
