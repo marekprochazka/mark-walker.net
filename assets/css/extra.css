@@ -1,5 +1,5 @@
 .navbar-rewrite {
-    background-color: #9ba3cf !important;
+    background-color: #13655E !important;
 }
 
 .navbar-rewrite__Link {
@@ -8,7 +8,7 @@
 }
 
 .navbar-rewrite__Link:hover {
-    color: pink !important;
+    color: #F26F81 !important;
 }
 
 .mr-1 {
@@ -17,4 +17,13 @@
 
 .navbar-rewrite__Icon {
     max-height: 40px !important;
+}
+
+.jumbotron.fortags {
+    margin-top: 3rem;
+    padding: 0;
+    border-radius: 0;
+    background-image: url(../images/jumbotron.jpg);
+    background-size: cover;
+    background-position: 20% 70%;
 }
