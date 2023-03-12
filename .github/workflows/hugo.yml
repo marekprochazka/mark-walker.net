@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "essays.mark-walker.net/"
+            --baseURL "mark-walker.net/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -65,7 +65,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: essays.mark-walker.net
+      url: mark-walker.net
     runs-on: ubuntu-latest
     needs: build
     steps:

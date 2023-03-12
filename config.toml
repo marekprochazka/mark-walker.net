@@ -1,60 +1,51 @@
-baseURL = "essays.mark-walker.net"
+baseURL = "mark-walker.net"
 languageCode = "en-us"
-title = "Mediumish"
+title = "Mark Walker"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = "Mark Walker - All rights reserved"
 enableEmoji = true
 publishDir = "public"
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
-  logo = "/images/logo.png"
-  description ="the clean blog!"
-  #mailchimp = "you can provide a mailchimp-link here"
+logo = "/icons/dove.png"
+description = "TODO Punchline"
+#mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
-  name = "John Doe"
-  thumbnail = "/images/author.png"
-  description = "Creator of this blog."
+name = "Mark Walker"
+thumbnail = "/images/author.png"
+description = ""
 
 [params.index]
-  picture = "/images/bateman.png"
-  title = "Mark walker"
-  subtitle = "Welcome to my blog!"
-  mdtext = '''
+picture = "/images/bateman.png"
+title = "Mark walker"
+subtitle = "Welcome to my blog!"
+mdtext = '''
 Soon you will find some epic shit here!\
 ### There will be the links for sub pages
 '''
-  alertbar = false
+alertbar = false
 
 [params.social]
-  github = "<username>"
-  linkedin = "<username>"
-  xing = "<username>"
-  medium = "<username>"
-  twitter = "<username>"
-  instagram = "<username>"
-
+twitter = "<username>"
+youtube = "<username>"
 ## Main Menu
 [[menu.main]]
-    name = "Blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog"
+name = "About Me"
+identifier = "about"
+weight = 200
+url = "/"
 [[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 200
-    url = "/"
+name = "Essays"
+identifier = "essays"
+weight = 200
+url = "/essays"
 [[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
-[[menu.main]]
-    name = "Essays"
-    identifier = "essays"
-    weight = 200
-    url = "/essays"
+name = "Blog"
+weight = 100
+identifier = "blog"
+url = "/blog"
+
