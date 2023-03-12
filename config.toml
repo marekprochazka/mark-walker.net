@@ -1,4 +1,4 @@
-baseURL = "mark-walker.net"
+baseURL = "/"
 languageCode = "en-us"
 title = "Mark Walker"
 theme = "mediumish-gohugo-theme"
