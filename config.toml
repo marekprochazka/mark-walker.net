@@ -16,7 +16,7 @@ description = "TODO Punchline"
 
 [params.author]
 name = "Mark Walker"
-thumbnail = "/images/author.png"
+thumbnail = "/images/author.JPG"
 description = ""
 
 [params.index]
