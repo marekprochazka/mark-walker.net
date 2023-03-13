@@ -10,8 +10,12 @@ body {
     width: 100%;
 }
 
+.app {
+    height: 100vh!important;
+    overflow: scroll;
+}
+
 .site-content {
-    height: 93vh!important;
 }
 
 .navbar-rewrite {
