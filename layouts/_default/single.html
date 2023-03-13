@@ -82,10 +82,6 @@
         </div>
         <!-- End Article
         ================================================== -->
-        {{ if .Params.comments }}
-            {{- partial "single-partials/comments.html" . -}}
-        {{ end }}
-    {{- partial "_shared/alertbar.html" . -}}
 {{ end }}
 
 {{ define "footer"}}
