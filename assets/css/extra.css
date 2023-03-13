@@ -1,3 +1,19 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.site-content {
+    height: 93vh!important;
+}
+
 .navbar-rewrite {
     background-color: #13655E !important;
 }
@@ -15,6 +31,15 @@
     margin-right: 1rem !important;
 }
 
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.mx-1 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
 .navbar-rewrite__Icon {
     max-height: 40px !important;
 }
@@ -27,3 +52,37 @@
     background-size: cover;
     background-position: 20% 70%;
 }
+
+.jumbotron-rewrite__Parent {
+    width:100%;
+    bottom: 0;
+    margin: 0 !important;
+}
+.jumbotron-rewrite {
+    height: 80% !important;
+}
+
+.footer-rewrite {
+    height: 20%;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.footer-rewrite__Child {
+    height: 100% !important;
+    color: white
+
+}
+.footer-rewrite__ChildColumn{
+    background: none !important;
+}
+.footerWrapper-rewrite {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.jumbotron.fortags a {
+    background-color: #F26F81 !important;
+
+}
+
