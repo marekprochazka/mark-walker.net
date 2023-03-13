@@ -3,8 +3,6 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="main-content">
-
     {{- partial "_shared/title.html" . -}}
         <!-- Posts Index
         ================================================== -->
@@ -20,10 +18,10 @@
             </div>
         </section>
         {{- partial "list-partials/pagination.html" $post_paginator -}}
-    </div>
     {{- partial "_shared/alertbar.html" . -}}
 {{ end }}
 
 {{ define "footer"}}
     {{- partial "_shared/jumbotron.html" . -}}
+<!--    {{- partial "_shared/footer.html" . -}}-->
 {{ end }}

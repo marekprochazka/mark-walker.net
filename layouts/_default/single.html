@@ -3,7 +3,6 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="main-content">
     {{- partial "_shared/title.html" . -}}
         <!-- Begin Article
         ================================================== -->
@@ -86,7 +85,6 @@
         {{ if .Params.comments }}
             {{- partial "single-partials/comments.html" . -}}
         {{ end }}
-    </div>
     {{- partial "_shared/alertbar.html" . -}}
 {{ end }}
 
