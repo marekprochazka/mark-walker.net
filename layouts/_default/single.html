@@ -39,7 +39,7 @@
 <!--                        &lt;!&ndash; Post Title &ndash;&gt;-->
 <!--                        <h1 class="posttitle">{{ .Title }}</h1> -->
 <!--                    </div>-->
-
+                    <h1 class="posttitle"><b>{{ .Title }}</b></h1>
                     <!-- Post Featured Image -->
                     {{$images := .Resources.ByType "image"}}
                     {{with $images.GetMatch "*cover*" }}
@@ -48,7 +48,7 @@
                     <!-- End Featured Image -->
 
                     <!-- Post Content -->
-                    <div class="article-post">
+                    <div class="article-post mt-5">
                         {{ .Content}}
                     </div>
                     
@@ -57,7 +57,7 @@
                         <ul class="tags">
                         {{ range .Params.tags }}
                         <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        <a class="tag-rewrite" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
                         </li>
                         {{ end }}
                         </ul>

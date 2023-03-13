@@ -37,7 +37,7 @@ youtube = "<username>"
 name = "About Me"
 identifier = "about"
 weight = 200
-url = "/"
+url = "/static/about"
 [[menu.main]]
 name = "Essays"
 identifier = "essays"

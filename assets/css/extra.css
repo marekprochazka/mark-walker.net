@@ -99,3 +99,8 @@ body {
     line-height: 1rem;
     font-size: 26px;
 }
+
+
+.tag-rewrite {
+    text-transform: capitalize!important;
+}
