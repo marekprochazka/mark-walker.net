@@ -12,6 +12,8 @@ publishDir = "public"
 [params]
 logo = "/icons/dove.png"
 description = "TODO Punchline"
+featuredvideo = "https://www.youtube.com/embed/lOh8MlYkv_0"
+
 #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]

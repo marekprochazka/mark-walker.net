@@ -10,6 +10,15 @@ body {
     /*width: 100%;*/
 }
 
+a {
+    color: #13655E;
+    transition: 0.6s;
+}
+
+a:hover {
+    color: #F26F81;
+}
+
 .app {
     display: grid;
     grid-template-columns: 100%;
@@ -30,11 +39,12 @@ body {
 
 .navbar-rewrite__Link {
     font-weight: bold;
-    color: black !important;
+    color: #F26F81 !important;
+    font-size: 20px;
 }
 
 .navbar-rewrite__Link:hover {
-    color: #F26F81 !important;
+    color: white !important;
 }
 
 .mr-1 {
@@ -103,4 +113,109 @@ body {
 
 .tag-rewrite {
     text-transform: capitalize!important;
+}
+
+.maxthumb-lite {
+    position: relative;
+    text-align: center;
+}
+
+.maxthumb-lite__Link {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    font-size: 30px;
+}
+
+/*.fancy-border {*/
+/*    border: double 8px transparent;*/
+/*    border-radius: 16px;*/
+/*    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #F26F81,#13655E);*/
+/*    background-origin: border-box;*/
+/*    background-clip: content-box, border-box;*/
+/*}*/
+
+.fancy-border {
+    border: solid 8px #13655E;
+    border-radius: 16px;
+    transition: 0.6s;
+
+}
+.fancy-border:hover {
+    border-color: #F26F81;
+}
+
+.fancy-border:hover a {
+    color: #F26F81;
+    transition: 0.6s;
+
+}
+
+.text-huge {
+    font-size: 50px;
+    color: #13655E;
+    font-weight: bold;
+}
+
+.text-x-huge {
+    font-size: 90px;
+    color: #13655E;
+    font-weight: bold;
+}
+
+blockquote {
+    border-left: 4px solid #F26F81 !important;
+}
+
+.navbar-title {
+    color: #F26F81!important;
+    transition: 0.6s;
+}
+.navbar-title:hover {
+    color: white!important;
+}
+
+.emphasize {
+    color: #13655E !important;
+}
+
+.hp-arrow {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    right: 50%;
+}
+.hp-arrow-2 {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    height: 50%;
+}
+
+.d-small {
+    display: none;
+}
+
+@media only screen and (max-width: 768px ) {
+    .d-small {
+        display: block!important;
+    }
+    .d-n-small {
+        display: none;
+    }
+    .small-center {
+        text-align: center!important;
+    }
+    .text-x-huge {
+        font-size: 60px!important;
+        text-align: center!important;
+    }
+}
+
+.mt-ultra {
+    margin-top: 10rem;
+}
+
+.flip {
+    transform: scaleX(-1);
 }

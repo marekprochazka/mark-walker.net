@@ -1,0 +1,12 @@
+<!-- begin post -->
+    <div class="h-100">
+        <div class="maxthumb maxthumb-lite fancy-border">
+            <a href="{{ .Permalink }}">
+                {{with .Params.image}}
+                <img class="img-fluid" src="{{ . | urlize | relURL }}" alt="A thumbnail image">
+                {{end}}
+                <h2 class="card-title maxthumb-lite__Link ">{{ .Title }}</h2>
+            </a>
+        </div>
+    </div>
+<!-- end post -->
