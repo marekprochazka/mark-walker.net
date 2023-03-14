@@ -125,6 +125,9 @@ a:hover {
     bottom: 10px;
     left: 16px;
     font-size: 30px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 5px;
 }
 
 /*.fancy-border {*/
@@ -190,6 +193,13 @@ blockquote {
     bottom: 0;
     right: 5%;
     height: 50%;
+}
+
+.hp-arrow-3{
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    left: 10%;
 }
 
 .d-small {

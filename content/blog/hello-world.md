@@ -1,26 +1,16 @@
 ---
-title: "Hello World"
+title: "So, I started a blog"
 date: 2023-03-13T10:49:38+01:00
-tags: []
+tags: ["personal"]
+image: "/images/blog/hello-world/hello-world.jpg"
+
 ---
 
 
-# Welcome to my blog!
+### Welcome!
 
-I'm 'gonna post here essays I write.
+### Who am I
 
-a
+### Why I started this blog
 
-b
-
-c
-
-d
-
-e
-
-f
-
-g
-
-h
+### What can you expect

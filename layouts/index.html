@@ -53,6 +53,19 @@
             </div>
         </div>
     </div>
+    <div class="row mt-5">
+        <div class="col-lg-6">
+            {{ range ( where .Site.RegularPages "Type" "blog" | last 1 ) }}
+            {{- partial "list-partials/postbox-lite.html" . -}}
+            {{ end }}
+        </div>
+        <div class="col-lg-6 align-self-top d-n-small">
+            <div class="text-huge text-right">
+                And here is a post about what you can expect here.
+            </div>
+            <img class="hp-arrow-3" src="/images/arrow.png" alt="Arrow">
+        </div>
+    </div>
 </div>
 
 {{end}}
