@@ -186,7 +186,7 @@ blockquote {
     position: absolute;
     bottom: 0;
     height: 50%;
-    right: 50%;
+    left: 10%;
 }
 .hp-arrow-2 {
     position: absolute;
